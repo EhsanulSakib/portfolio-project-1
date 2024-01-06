@@ -1,0 +1,33 @@
+nav {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+nav ul {
+  display: flex;
+  width: 100vw;
+  gap: 3rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.logo {
+  font-size: 30px;
+  justify-self: flex-start;
+}
+
+.r {
+  color: orangered;
+}
