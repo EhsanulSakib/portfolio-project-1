@@ -326,3 +326,85 @@ nav ul li:hover {
   margin-bottom: 30px;
   border-bottom: 1px solid #d1d1d1;
 }
+
+.cv-btn {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+/* footer */
+footer {
+  max-width: auto;
+  background-color: #fff8f3;
+}
+
+.footer-container {
+  margin: auto;
+  margin-top: 113px;
+  background-color: #fff8f3;
+  max-width: 1600px;
+  display: flex;
+  gap: 117px;
+}
+footer h3 {
+  margin-top: 130px;
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+footer p {
+  color: #474747;
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.left-f {
+  max-width: 562px;
+  margin-left: 230px;
+}
+
+.social ul {
+  list-style: none;
+  cursor: pointer;
+  margin-top: 30px;
+  display: flex;
+  gap: 24px;
+}
+
+.right-f form {
+  margin-top: 28px;
+}
+
+.right-f input {
+  margin-bottom: 24px;
+}
+
+.information {
+  padding: 18px 0 18px 30px;
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.your-name {
+  padding-right: 349px;
+}
+
+.your-email {
+  padding-right: 350px;
+}
+
+.your-msg {
+  padding-right: 350px;
+  padding-bottom: 134px;
+}
+
+.submit-btn {
+  margin: 24px 0 130px 0;
+}
