@@ -10,16 +10,15 @@
 
 .lending {
   max-width: auto;
-  max-height: 841px;
-  padding-bottom: 0px;
+  max-height: 837px;
   background-color: #fff8f3;
 }
 
 .container {
   max-width: 1600px;
-  background-image: url(images/header_bg.png), url(images/developer.png);
+  background-image: url(images/developer.png);
   background-repeat: no-repeat;
-  background-position: bottom right, left;
+  background-position: left;
   margin: auto;
 }
 nav {
@@ -27,7 +26,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 50px 230px 0px;
-  /* padding: 0px 230px; */
 }
 
 nav ul {
@@ -86,10 +84,9 @@ nav ul li:hover {
 }
 
 .left-side {
-  margin-top: 150px;
+  padding-top: 120px;
   padding-left: 226px;
   max-width: 580px;
-  max-height: 676px;
 }
 
 .left-side h3 {
@@ -151,15 +148,19 @@ nav ul li:hover {
   width: 130px;
 }
 
+.right-side {
+  margin-top: 47px;
+}
 .right-side img {
-  margin-top: 50px;
+  padding-left: 180px;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
   padding-right: 35px;
-  padding-bottom: 0px;
 }
 
 #About {
   margin: auto;
-
   margin-top: 130px;
   width: 1140px;
   height: 550px;
